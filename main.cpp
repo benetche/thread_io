@@ -1,10 +1,16 @@
-#include <stdlib.h>
-#include <cstdio>
-#include <iostream>
-
-using namespace std;
+#include "raylib.h"
 
 int main() {
-    cout << "oi" << endl;
-    return 0;
+    const int WindowWidth = 1280;
+    const int WindowHeight = 720;
+
+    InitWindow(WindowWidth, WindowHeight, "MyGame");
+
+    SetTargetFPS(60);
+
+    while(!WindowShouldClose()){
+        BeginDrawing();
+
+        EndDrawing();
+    }
 }
