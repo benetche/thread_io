@@ -13,5 +13,3 @@ Membros:
 
 ### 🎮 Sobre o jogo
 
-  
-
