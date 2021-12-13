@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/assets">
+        <file>HP ARMOR AMMO HUD.png</file>
+        <file>BG.png</file>
+        <file>Vertical Menu.png</file>
+        <file>Main Background.png</file>
+    </qresource>
+</RCC>
