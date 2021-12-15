@@ -38,7 +38,7 @@
       <x>20</x>
       <y>10</y>
       <width>351</width>
-      <height>211</height>
+      <height>201</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -54,11 +54,11 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLabel" name="money_label">
     <property name="geometry">
      <rect>
       <x>160</x>
-      <y>82</y>
+      <y>78</y>
       <width>100</width>
       <height>31</height>
      </rect>
@@ -127,33 +127,10 @@ QPushButton::hover{
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>430</x>
-      <y>85</y>
-      <width>81</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border: 0;
-border-image: none;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="resources.qrc">:/assets/gpu.png</pixmap>
-    </property>
-    <property name="scaledContents">
-     <bool>true</bool>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>440</x>
+      <x>434</x>
       <y>142</y>
       <width>100</width>
       <height>31</height>
@@ -203,6 +180,361 @@ QPushButton::hover{
     </property>
     <property name="text">
      <string>BUY</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>602</x>
+      <y>142</y>
+      <width>100</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: #9a7a25;
+font: 16pt &quot;Minecraft&quot;;
+border-image: none;
+background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string>0 </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>656</x>
+      <y>142</y>
+      <width>50</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	color: #9a7a25;
+	font: 14pt &quot;Minecraft&quot;;
+	border-image: url(:/assets/Button BG shadow.png);
+}
+QPushButton::hover{
+	font: 12pt;
+	border-image: url(:/assets/Button BG.png);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>BUY</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>772</x>
+      <y>142</y>
+      <width>100</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: #9a7a25;
+font: 16pt &quot;Minecraft&quot;;
+border-image: none;
+background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string>0 </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>822</x>
+      <y>142</y>
+      <width>50</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	color: #9a7a25;
+	font: 14pt &quot;Minecraft&quot;;
+	border-image: url(:/assets/Button BG shadow.png);
+}
+QPushButton::hover{
+	font: 12pt;
+	border-image: url(:/assets/Button BG.png);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>BUY</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>444</x>
+      <y>200</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/assets/locked.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>432</x>
+      <y>254</y>
+      <width>100</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: #ffffff;
+font: 12pt &quot;Minecraft&quot;;
+border-image: none;
+background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string>LOCKED</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>270</y>
+      <width>351</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: none;
+border: 0;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/assets/Button BG shadow.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>320</y>
+      <width>351</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: none;
+border: 0;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/assets/Button BG shadow.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>370</y>
+      <width>351</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: none;
+border: 0;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/assets/Button BG shadow.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>351</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: none;
+border: 0;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/assets/Button BG shadow.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>230</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #9a7a25;
+font: 22pt &quot;Minecraft&quot;;
+border-image: none;
+background-color: transparent;
+</string>
+    </property>
+    <property name="text">
+     <string>TRADERS: 0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>280</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #9a7a25;
+font: 22pt &quot;Minecraft&quot;;
+border-image: none;
+background-color: transparent;
+</string>
+    </property>
+    <property name="text">
+     <string>GPUs: 0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>330</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #9a7a25;
+font: 22pt &quot;Minecraft&quot;;
+border-image: none;
+background-color: transparent;
+</string>
+    </property>
+    <property name="text">
+     <string>MINING RIGS: 0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>380</y>
+      <width>321</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #9a7a25;
+font: 22pt &quot;Minecraft&quot;;
+border-image: none;
+background-color: transparent;
+</string>
+    </property>
+    <property name="text">
+     <string>TOTAL: 0 per/s</string>
     </property>
    </widget>
   </widget>

@@ -2,15 +2,15 @@
 #include "ui_mainwindow.h"
 #include <QString>
 #include <QLabel>
-int counter = 0;
+#include <iostream>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
-    counter = 0;
-    ui->setupUi(this);
 
+    ui->setupUi(this);
+    this->purse = new MoneyPurse(ui->money_label);
 }
 
 MainWindow::~MainWindow()
@@ -23,7 +23,5 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    counter++;
-    ui->label_2->setText(QString::number(counter));
+    this->purse->addMoney(1);
 }
-

@@ -12,5 +12,8 @@
         <file>gpu.png</file>
         <file>BG Preset.png</file>
         <file>Upgrade.png</file>
+        <file>locked.png</file>
+        <file>Money Panel EMPTY HUD.png</file>
+        <file>Bonus 03.png</file>
     </qresource>
 </RCC>
