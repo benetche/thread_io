@@ -2,7 +2,6 @@
 #include "ui_mainwindow.h"
 #include <QString>
 #include <QLabel>
-
 int counter = 0;
 
 MainWindow::MainWindow(QWidget *parent)
@@ -11,6 +10,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     counter = 0;
     ui->setupUi(this);
+
 }
 
 MainWindow::~MainWindow()
@@ -24,6 +24,6 @@ MainWindow::~MainWindow()
 void MainWindow::on_pushButton_clicked()
 {
     counter++;
-    ui->label_2->setText(QString::number(counter) + " cliques");
+    ui->label_2->setText(QString::number(counter));
 }
 

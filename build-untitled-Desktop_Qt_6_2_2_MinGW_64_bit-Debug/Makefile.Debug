@@ -106,8 +106,16 @@ debug/qrc_resources.cpp: ../hora_do_thread/resources.qrc \
 		C:/Qt/6.2.2/mingw_64/bin/rcc.exe \
 		../hora_do_thread/Main\ Background.png \
 		../hora_do_thread/Vertical\ Menu.png \
+		../hora_do_thread/Inventory\ Stats\ Empty.png \
 		../hora_do_thread/BG.png \
-		../hora_do_thread/HP\ ARMOR\ AMMO\ HUD.png
+		../hora_do_thread/Button\ BG\ shadow.png \
+		../hora_do_thread/Button\ BG.png \
+		../hora_do_thread/Inventory\ Cell.png \
+		../hora_do_thread/Money\ Icon.png \
+		../hora_do_thread/gpu.png \
+		../hora_do_thread/Upgrade.png \
+		../hora_do_thread/HP\ ARMOR\ AMMO\ HUD.png \
+		../hora_do_thread/BG\ Preset.png
 	C:\Qt\6.2.2\mingw_64\bin\rcc.exe -name resources ..\hora_do_thread\resources.qrc -o debug\qrc_resources.cpp
 
 compiler_moc_predefs_make_all: debug/moc_predefs.h
@@ -412,6 +420,8 @@ debug/main.o: ../hora_do_thread/main.cpp ../hora_do_thread/mainwindow.h \
 		C:/Qt/6.2.2/mingw_64/include/QtCore/qloggingcategory.h \
 		C:/Qt/6.2.2/mingw_64/include/QtWidgets/qtabwidget.h \
 		C:/Qt/6.2.2/mingw_64/include/QtGui/qicon.h \
+		C:/Qt/6.2.2/mingw_64/include/QtGui/QFontDatabase \
+		C:/Qt/6.2.2/mingw_64/include/QtGui/qfontdatabase.h \
 		C:/Qt/6.2.2/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.2.2/mingw_64/include/QtWidgets/qapplication.h \
 		C:/Qt/6.2.2/mingw_64/include/QtCore/qcoreapplication.h \
@@ -589,15 +599,22 @@ debug/mainwindow.o: ../hora_do_thread/mainwindow.cpp ../hora_do_thread/mainwindo
 		C:/Qt/6.2.2/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.2.2/mingw_64/include/QtCore/qlocale.h \
 		C:/Qt/6.2.2/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/6.2.2/mingw_64/include/QtWidgets/QFrame \
+		C:/Qt/6.2.2/mingw_64/include/QtWidgets/QLabel \
+		C:/Qt/6.2.2/mingw_64/include/QtWidgets/qlabel.h \
 		C:/Qt/6.2.2/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.2.2/mingw_64/include/QtGui/qpicture.h \
+		C:/Qt/6.2.2/mingw_64/include/QtGui/qtextdocument.h \
 		C:/Qt/6.2.2/mingw_64/include/QtWidgets/QMenuBar \
 		C:/Qt/6.2.2/mingw_64/include/QtWidgets/qmenubar.h \
 		C:/Qt/6.2.2/mingw_64/include/QtWidgets/qmenu.h \
 		C:/Qt/6.2.2/mingw_64/include/QtGui/qaction.h \
+		C:/Qt/6.2.2/mingw_64/include/QtWidgets/QPushButton \
+		C:/Qt/6.2.2/mingw_64/include/QtWidgets/qpushbutton.h \
+		C:/Qt/6.2.2/mingw_64/include/QtWidgets/qabstractbutton.h \
 		C:/Qt/6.2.2/mingw_64/include/QtWidgets/QStatusBar \
 		C:/Qt/6.2.2/mingw_64/include/QtWidgets/qstatusbar.h \
-		C:/Qt/6.2.2/mingw_64/include/QtWidgets/QWidget
+		C:/Qt/6.2.2/mingw_64/include/QtWidgets/QWidget \
+		C:/Qt/6.2.2/mingw_64/include/QtCore/QString
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o ..\hora_do_thread\mainwindow.cpp
 
 debug/qrc_resources.o: debug/qrc_resources.cpp 

@@ -4,5 +4,13 @@
         <file>BG.png</file>
         <file>Vertical Menu.png</file>
         <file>Main Background.png</file>
+        <file>Inventory Stats Empty.png</file>
+        <file>Inventory Cell.png</file>
+        <file>Money Icon.png</file>
+        <file>Button BG shadow.png</file>
+        <file>Button BG.png</file>
+        <file>gpu.png</file>
+        <file>BG Preset.png</file>
+        <file>Upgrade.png</file>
     </qresource>
 </RCC>
