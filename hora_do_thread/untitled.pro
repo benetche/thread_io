@@ -12,12 +12,14 @@ SOURCES += \
     autoclicker.cpp \
     main.cpp \
     mainwindow.cpp \
-    moneypurse.cpp
+    moneypurse.cpp \
+    semaphore.cpp
 
 HEADERS += \
     autoclicker.h \
     mainwindow.h \
-    moneypurse.h
+    moneypurse.h \
+    semaphore.h
 
 FORMS += \
     mainwindow.ui

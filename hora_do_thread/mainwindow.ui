@@ -80,7 +80,7 @@ background-color: transparent;
      <string>0 </string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="click_button">
     <property name="geometry">
      <rect>
       <x>140</x>
@@ -127,7 +127,7 @@ QPushButton::hover{
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_5">
+   <widget class="QLabel" name="trader_price">
     <property name="geometry">
      <rect>
       <x>434</x>
@@ -154,7 +154,7 @@ background-color: transparent;
      <string>0 </string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="trader_buy">
     <property name="geometry">
      <rect>
       <x>492</x>
@@ -182,7 +182,7 @@ QPushButton::hover{
      <string>BUY</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_6">
+   <widget class="QLabel" name="gpu_price">
     <property name="geometry">
      <rect>
       <x>602</x>
@@ -209,7 +209,7 @@ background-color: transparent;
      <string>0 </string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="gpu_buy">
     <property name="geometry">
      <rect>
       <x>656</x>
@@ -237,7 +237,7 @@ QPushButton::hover{
      <string>BUY</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_7">
+   <widget class="QLabel" name="rig_price">
     <property name="geometry">
      <rect>
       <x>772</x>
@@ -264,7 +264,7 @@ background-color: transparent;
      <string>0 </string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="rig_buy">
     <property name="geometry">
      <rect>
       <x>822</x>
@@ -292,7 +292,7 @@ QPushButton::hover{
      <string>BUY</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_4">
+   <widget class="QLabel" name="locked_1">
     <property name="geometry">
      <rect>
       <x>444</x>
@@ -314,7 +314,7 @@ QPushButton::hover{
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_8">
+   <widget class="QLabel" name="locked_text_1">
     <property name="geometry">
      <rect>
       <x>432</x>
@@ -331,7 +331,7 @@ QPushButton::hover{
     </property>
     <property name="styleSheet">
      <string notr="true">QLabel{
-color: #ffffff;
+color: #9a7a25;
 font: 12pt &quot;Minecraft&quot;;
 border-image: none;
 background-color: transparent;
@@ -433,7 +433,7 @@ border: 0;</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_13">
+   <widget class="QLabel" name="trader_quant">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -459,7 +459,7 @@ background-color: transparent;
      <string>TRADERS: 0</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_14">
+   <widget class="QLabel" name="gpu_quant">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -485,7 +485,7 @@ background-color: transparent;
      <string>GPUs: 0</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_15">
+   <widget class="QLabel" name="rig_quant">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -535,6 +535,240 @@ background-color: transparent;
     </property>
     <property name="text">
      <string>TOTAL: 0 per/s</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gpu">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>90</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: none;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/assets/gpu.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="locked_2">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>200</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/assets/locked.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="locked_text_2">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>254</y>
+      <width>100</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: #9a7a25;
+font: 12pt &quot;Minecraft&quot;;
+border-image: none;
+background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string>LOCKED</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="locked_text_3">
+    <property name="geometry">
+     <rect>
+      <x>425</x>
+      <y>315</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: #ffffff;
+font: 12pt &quot;Minecraft&quot;;
+border-image: none;
+background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string>COMING SOON</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="locked_text_4">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>315</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: #ffffff;
+font: 12pt &quot;Minecraft&quot;;
+border-image: none;
+background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string>COMING SOON</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="locked_text_5">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>315</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: #ffffff;
+font: 12pt &quot;Minecraft&quot;;
+border-image: none;
+background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string>COMING SOON</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="locked_text_6">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>350</y>
+      <width>100</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: #9a7a25;
+font: 12pt &quot;Minecraft&quot;;
+border-image: none;
+background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string>LOCKED</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="locked_text_7">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>350</y>
+      <width>100</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: #9a7a25;
+font: 12pt &quot;Minecraft&quot;;
+border-image: none;
+background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string>LOCKED</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="locked_text_8">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>350</y>
+      <width>100</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+color: #9a7a25;
+font: 12pt &quot;Minecraft&quot;;
+border-image: none;
+background-color: transparent;
+}</string>
+    </property>
+    <property name="text">
+     <string>LOCKED</string>
     </property>
    </widget>
   </widget>
