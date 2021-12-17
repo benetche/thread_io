@@ -25,18 +25,19 @@ public:
     void handleBuy();
 
 private:
-    bool active;
+    bool active;    //verifica se a thread esta ativa
     std::thread *clicker = nullptr;
 
-    int QUANT = 0;
-    int TICK;
-    int DEFAULT_PRICE;
-    double PRICE_MULTIPLIER;
-    int MONEY_GEN;
+    int QUANT = 0;      //quantidade de autoclickers
+    int TICK;          //tempo em ms para gerar dinheiro
+    int DEFAULT_PRICE; //valor padrao
+    double PRICE_MULTIPLIER;  //multiplicador do valor apos compra
+    int MONEY_GEN;      //quantidade de dinheiro a ser gerado pelo clicker
 
-    int act_price;
-    QString CLICKER_NAME;
+    int act_price;      //preco atual -> variavel
+
     QLabel *price_label;
+
     MoneyPurse *purse;
     void setPrice();
     void updatePriceLabel();
