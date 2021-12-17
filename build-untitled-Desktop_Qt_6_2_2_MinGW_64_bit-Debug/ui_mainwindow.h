@@ -94,7 +94,7 @@ public:
 "	border-image: url(:/assets/resources/images/button_shadow.png);\n"
 "}\n"
 "QPushButton::hover{\n"
-"	font: 18pt;\n"
+"	font: 18pt \"Minecraft\";\n"
 "	border-image: url(:/assets/resources/images/button.png);\n"
 "}\n"
 ""));
@@ -119,11 +119,11 @@ public:
         trader_buy->setCursor(QCursor(Qt::PointingHandCursor));
         trader_buy->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "	color: #9a7a25;\n"
-"	font: 14pt \"Minecraft\";\n"
+"	font: 14pt \"Minecraft\" ;\n"
 "	border-image: url(:/assets/resources/images/button_shadow.png);\n"
 "}\n"
 "QPushButton::hover{\n"
-"	font: 12pt;\n"
+"	font: 12pt \"Minecraft\";\n"
 "	border-image: url(:/assets/resources/images/button.png);\n"
 "}\n"
 ""));
@@ -147,7 +147,7 @@ public:
 "	border-image: url(:/assets/resources/images/button_shadow.png);\n"
 "}\n"
 "QPushButton::hover{\n"
-"	font: 12pt;\n"
+"	font: 12pt \"Minecraft\";\n"
 "	border-image: url(:/assets/resources/images/button.png);\n"
 "}\n"
 ""));
@@ -171,7 +171,7 @@ public:
 "	border-image: url(:/assets/resources/images/button_shadow.png);\n"
 "}\n"
 "QPushButton::hover{\n"
-"	font: 12pt;\n"
+"	font: 12pt \"Minecraft\";\n"
 "	border-image: url(:/assets/resources/images/button.png);\n"
 "}\n"
 ""));
@@ -250,7 +250,7 @@ public:
         locked_2->setObjectName(QString::fromUtf8("locked_2"));
         locked_2->setGeometry(QRect(610, 200, 51, 41));
         locked_2->setStyleSheet(QString::fromUtf8("border-image: none;"));
-        locked_2->setPixmap(QPixmap(QString::fromUtf8(":/assets/locked.png")));
+        locked_2->setPixmap(QPixmap(QString::fromUtf8(":/assets/resources/images/locked.png")));
         locked_2->setScaledContents(true);
         locked_text_2 = new QLabel(centralwidget);
         locked_text_2->setObjectName(QString::fromUtf8("locked_text_2"));

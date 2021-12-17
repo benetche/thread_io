@@ -11,5 +11,6 @@
         <file>resources/images/money_background.png</file>
         <file>resources/images/trade.png</file>
         <file>resources/images/upgrade_background.png</file>
+        <file>resources/fonts/MinecraftRegular-Bmg3.otf</file>
     </qresource>
 </RCC>

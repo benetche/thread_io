@@ -101,7 +101,7 @@ background-color: transparent;
 	border-image: url(:/assets/resources/images/button_shadow.png);
 }
 QPushButton::hover{
-	font: 18pt;
+	font: 18pt &quot;Minecraft&quot;;
 	border-image: url(:/assets/resources/images/button.png);
 }
 </string>
@@ -171,11 +171,11 @@ background-color: transparent;
     <property name="styleSheet">
      <string notr="true">QPushButton{
 	color: #9a7a25;
-	font: 14pt &quot;Minecraft&quot;;
+	font: 14pt &quot;Minecraft&quot; ;
 	border-image: url(:/assets/resources/images/button_shadow.png);
 }
 QPushButton::hover{
-	font: 12pt;
+	font: 12pt &quot;Minecraft&quot;;
 	border-image: url(:/assets/resources/images/button.png);
 }
 </string>
@@ -230,7 +230,7 @@ background-color: transparent;
 	border-image: url(:/assets/resources/images/button_shadow.png);
 }
 QPushButton::hover{
-	font: 12pt;
+	font: 12pt &quot;Minecraft&quot;;
 	border-image: url(:/assets/resources/images/button.png);
 }
 </string>
@@ -285,7 +285,7 @@ background-color: transparent;
 	border-image: url(:/assets/resources/images/button_shadow.png);
 }
 QPushButton::hover{
-	font: 12pt;
+	font: 12pt &quot;Minecraft&quot;;
 	border-image: url(:/assets/resources/images/button.png);
 }
 </string>
@@ -529,7 +529,7 @@ background-color: transparent;
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>:/assets/locked.png</pixmap>
+     <pixmap resource="resources.qrc">:/assets/resources/images/locked.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

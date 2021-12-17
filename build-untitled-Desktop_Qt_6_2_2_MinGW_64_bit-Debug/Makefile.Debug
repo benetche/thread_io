@@ -116,6 +116,7 @@ compiler_rcc_clean:
 	-$(DEL_FILE) debug\qrc_resources.cpp
 debug/qrc_resources.cpp: ../hora_do_thread/resources.qrc \
 		C:/Qt/6.2.2/mingw_64/bin/rcc.exe \
+		../hora_do_thread/resources/fonts/MinecraftRegular-Bmg3.otf \
 		../hora_do_thread/resources/images/locked.png \
 		../hora_do_thread/resources/images/BG.png \
 		../hora_do_thread/resources/images/main_background.png \
