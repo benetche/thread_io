@@ -1,4 +1,4 @@
-# Hora do Thread
+# Thread.io
 
 ## Um jogo para estudo de threads🧵 e semáforos 🚦
 
@@ -11,3 +11,12 @@ Membros:
   <li>Nome :  Jayro Boy de Vasconcellos Neto</li>
 </ul>
 
+### 🎮 Sobre o jogo
+
+Para compilar o jogo é necessária a ferramenta <a href="https://www.qt.io/download">Qt Creator.</a>
+
+Caso esteja usando alguma distribuição Linux baseada em deb, poderá baixar com o comando:
+```linux
+sudo apt-get install qt5-default
+```
+Após instalar o <a href="https://www.qt.io/download">Qt Creator</a>, basta abrir o projeto e executar o comando "Build", o qual irá compilar e rodar o programa em sua máquina.
