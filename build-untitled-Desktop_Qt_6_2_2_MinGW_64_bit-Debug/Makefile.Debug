@@ -116,19 +116,21 @@ compiler_rcc_clean:
 	-$(DEL_FILE) debug\qrc_resources.cpp
 debug/qrc_resources.cpp: ../hora_do_thread/resources.qrc \
 		C:/Qt/6.2.2/mingw_64/bin/rcc.exe \
-		../hora_do_thread/Main\ Background.png \
-		../hora_do_thread/Vertical\ Menu.png \
 		../hora_do_thread/locked.png \
 		../hora_do_thread/Inventory\ Stats\ Empty.png \
-		../hora_do_thread/BG.png \
 		../hora_do_thread/Button\ BG\ shadow.png \
-		../hora_do_thread/Button\ BG.png \
+		../hora_do_thread/trade.png \
 		../hora_do_thread/Inventory\ Cell.png \
-		../hora_do_thread/Money\ Icon.png \
-		../hora_do_thread/gpu.png \
-		../hora_do_thread/Upgrade.png \
 		../hora_do_thread/HP\ ARMOR\ AMMO\ HUD.png \
 		../hora_do_thread/Money\ Panel\ EMPTY\ HUD.png \
+		../hora_do_thread/Main\ Background.png \
+		../hora_do_thread/Vertical\ Menu.png \
+		../hora_do_thread/BG.png \
+		../hora_do_thread/Button\ BG.png \
+		../hora_do_thread/Money\ Icon.png \
+		../hora_do_thread/Upgrade.png \
+		../hora_do_thread/gpu.png \
+		../hora_do_thread/mining\ rig.png \
 		../hora_do_thread/BG\ Preset.png \
 		../hora_do_thread/Bonus\ 03.png
 	C:\Qt\6.2.2\mingw_64\bin\rcc.exe -name resources ..\hora_do_thread\resources.qrc -o debug\qrc_resources.cpp

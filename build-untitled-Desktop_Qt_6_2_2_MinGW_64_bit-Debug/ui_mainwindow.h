@@ -38,12 +38,10 @@ public:
     QLabel *locked_text_1;
     QLabel *label_9;
     QLabel *label_10;
-    QLabel *label_11;
     QLabel *label_12;
     QLabel *trader_quant;
     QLabel *gpu_quant;
     QLabel *rig_quant;
-    QLabel *label_16;
     QLabel *gpu;
     QLabel *locked_2;
     QLabel *locked_text_2;
@@ -53,6 +51,8 @@ public:
     QLabel *locked_text_6;
     QLabel *locked_text_7;
     QLabel *locked_text_8;
+    QLabel *trader;
+    QLabel *mining_rig;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -203,13 +203,6 @@ public:
 "border: 0;"));
         label_10->setPixmap(QPixmap(QString::fromUtf8(":/assets/Button BG shadow.png")));
         label_10->setScaledContents(true);
-        label_11 = new QLabel(centralwidget);
-        label_11->setObjectName(QString::fromUtf8("label_11"));
-        label_11->setGeometry(QRect(20, 370, 351, 51));
-        label_11->setStyleSheet(QString::fromUtf8("border-image: none;\n"
-"border: 0;"));
-        label_11->setPixmap(QPixmap(QString::fromUtf8(":/assets/Button BG shadow.png")));
-        label_11->setScaledContents(true);
         label_12 = new QLabel(centralwidget);
         label_12->setObjectName(QString::fromUtf8("label_12"));
         label_12->setGeometry(QRect(20, 220, 351, 51));
@@ -240,15 +233,6 @@ public:
         rig_quant->setGeometry(QRect(40, 330, 321, 31));
         rig_quant->setMinimumSize(QSize(100, 20));
         rig_quant->setStyleSheet(QString::fromUtf8("color: #9a7a25;\n"
-"font: 22pt \"Minecraft\";\n"
-"border-image: none;\n"
-"background-color: transparent;\n"
-""));
-        label_16 = new QLabel(centralwidget);
-        label_16->setObjectName(QString::fromUtf8("label_16"));
-        label_16->setGeometry(QRect(40, 380, 321, 31));
-        label_16->setMinimumSize(QSize(100, 20));
-        label_16->setStyleSheet(QString::fromUtf8("color: #9a7a25;\n"
 "font: 22pt \"Minecraft\";\n"
 "border-image: none;\n"
 "background-color: transparent;\n"
@@ -336,6 +320,20 @@ public:
 "border-image: none;\n"
 "background-color: transparent;\n"
 "}"));
+        trader = new QLabel(centralwidget);
+        trader->setObjectName(QString::fromUtf8("trader"));
+        trader->setGeometry(QRect(450, 90, 51, 41));
+        trader->setStyleSheet(QString::fromUtf8("border-image: none;\n"
+""));
+        trader->setPixmap(QPixmap(QString::fromUtf8(":/assets/trade.png")));
+        trader->setScaledContents(true);
+        mining_rig = new QLabel(centralwidget);
+        mining_rig->setObjectName(QString::fromUtf8("mining_rig"));
+        mining_rig->setGeometry(QRect(760, 90, 81, 51));
+        mining_rig->setStyleSheet(QString::fromUtf8("border-image: none;\n"
+""));
+        mining_rig->setPixmap(QPixmap(QString::fromUtf8(":/assets/mining rig.png")));
+        mining_rig->setScaledContents(true);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -367,12 +365,10 @@ public:
         locked_text_1->setText(QCoreApplication::translate("MainWindow", "LOCKED", nullptr));
         label_9->setText(QString());
         label_10->setText(QString());
-        label_11->setText(QString());
         label_12->setText(QString());
         trader_quant->setText(QCoreApplication::translate("MainWindow", "TRADERS: 0", nullptr));
         gpu_quant->setText(QCoreApplication::translate("MainWindow", "GPUs: 0", nullptr));
         rig_quant->setText(QCoreApplication::translate("MainWindow", "MINING RIGS: 0", nullptr));
-        label_16->setText(QCoreApplication::translate("MainWindow", "TOTAL: 0 per/s", nullptr));
         gpu->setText(QString());
         locked_2->setText(QString());
         locked_text_2->setText(QCoreApplication::translate("MainWindow", "LOCKED", nullptr));
@@ -382,6 +378,8 @@ public:
         locked_text_6->setText(QCoreApplication::translate("MainWindow", "LOCKED", nullptr));
         locked_text_7->setText(QCoreApplication::translate("MainWindow", "LOCKED", nullptr));
         locked_text_8->setText(QCoreApplication::translate("MainWindow", "LOCKED", nullptr));
+        trader->setText(QString());
+        mining_rig->setText(QString());
     } // retranslateUi
 
 };

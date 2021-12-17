@@ -27,7 +27,7 @@ void AutoClicker::setPrice(){
         this->act_price = this->DEFAULT_PRICE;
     }
     else{
-        this->act_price = int(DEFAULT_PRICE * PRICE_MULTIPLIER * (this->QUANT + 1));
+        this->act_price = int(this->act_price * (this->PRICE_MULTIPLIER ));
     }
     this->updatePriceLabel();
 }
