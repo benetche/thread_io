@@ -116,23 +116,17 @@ compiler_rcc_clean:
 	-$(DEL_FILE) release\qrc_resources.cpp
 release/qrc_resources.cpp: ../hora_do_thread/resources.qrc \
 		C:/Qt/6.2.2/mingw_64/bin/rcc.exe \
-		../hora_do_thread/locked.png \
-		../hora_do_thread/Inventory\ Stats\ Empty.png \
-		../hora_do_thread/Button\ BG\ shadow.png \
-		../hora_do_thread/trade.png \
-		../hora_do_thread/Inventory\ Cell.png \
-		../hora_do_thread/HP\ ARMOR\ AMMO\ HUD.png \
-		../hora_do_thread/Money\ Panel\ EMPTY\ HUD.png \
-		../hora_do_thread/Main\ Background.png \
-		../hora_do_thread/Vertical\ Menu.png \
-		../hora_do_thread/BG.png \
-		../hora_do_thread/Button\ BG.png \
-		../hora_do_thread/Money\ Icon.png \
-		../hora_do_thread/Upgrade.png \
-		../hora_do_thread/gpu.png \
-		../hora_do_thread/mining\ rig.png \
-		../hora_do_thread/BG\ Preset.png \
-		../hora_do_thread/Bonus\ 03.png
+		../hora_do_thread/resources/images/locked.png \
+		../hora_do_thread/resources/images/BG.png \
+		../hora_do_thread/resources/images/main_background.png \
+		../hora_do_thread/resources/images/trade.png \
+		../hora_do_thread/resources/images/Money\ Icon.png \
+		../hora_do_thread/resources/images/gpu.png \
+		../hora_do_thread/resources/images/button.png \
+		../hora_do_thread/resources/images/button_shadow.png \
+		../hora_do_thread/resources/images/mining\ rig.png \
+		../hora_do_thread/resources/images/upgrade_background.png \
+		../hora_do_thread/resources/images/money_background.png
 	C:\Qt\6.2.2\mingw_64\bin\rcc.exe -name resources ..\hora_do_thread\resources.qrc -o release\qrc_resources.cpp
 
 compiler_moc_predefs_make_all: release/moc_predefs.h

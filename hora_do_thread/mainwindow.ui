@@ -29,7 +29,7 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">border-image: url(:/assets/Main Background.png)</string>
+   <string notr="true">border-image: url(:/assets/resources/images/main_background.png)</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
@@ -42,13 +42,15 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border: 0;</string>
+     <string notr="true">border: 0;
+border-image: none;
+</string>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="resources.qrc">:/assets/BG Preset.png</pixmap>
+     <pixmap resource="resources.qrc">:/assets/resources/images/money_background.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -96,11 +98,11 @@ background-color: transparent;
      <string notr="true">QPushButton{
 	color: #9a7a25;
 	font: 20pt &quot;Minecraft&quot;;
-	border-image: url(:/assets/Button BG shadow.png);
+	border-image: url(:/assets/resources/images/button_shadow.png);
 }
 QPushButton::hover{
 	font: 18pt;
-	border-image: url(:/assets/Button BG.png);
+	border-image: url(:/assets/resources/images/button.png);
 }
 </string>
     </property>
@@ -121,7 +123,7 @@ QPushButton::hover{
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="resources.qrc">:/assets/Upgrade.png</pixmap>
+     <pixmap resource="resources.qrc">:/assets/resources/images/upgrade_background.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -170,11 +172,11 @@ background-color: transparent;
      <string notr="true">QPushButton{
 	color: #9a7a25;
 	font: 14pt &quot;Minecraft&quot;;
-	border-image: url(:/assets/Button BG shadow.png);
+	border-image: url(:/assets/resources/images/button_shadow.png);
 }
 QPushButton::hover{
 	font: 12pt;
-	border-image: url(:/assets/Button BG.png);
+	border-image: url(:/assets/resources/images/button.png);
 }
 </string>
     </property>
@@ -225,11 +227,11 @@ background-color: transparent;
      <string notr="true">QPushButton{
 	color: #9a7a25;
 	font: 14pt &quot;Minecraft&quot;;
-	border-image: url(:/assets/Button BG shadow.png);
+	border-image: url(:/assets/resources/images/button_shadow.png);
 }
 QPushButton::hover{
 	font: 12pt;
-	border-image: url(:/assets/Button BG.png);
+	border-image: url(:/assets/resources/images/button.png);
 }
 </string>
     </property>
@@ -280,11 +282,11 @@ background-color: transparent;
      <string notr="true">QPushButton{
 	color: #9a7a25;
 	font: 14pt &quot;Minecraft&quot;;
-	border-image: url(:/assets/Button BG shadow.png);
+	border-image: url(:/assets/resources/images/button_shadow.png);
 }
 QPushButton::hover{
 	font: 12pt;
-	border-image: url(:/assets/Button BG.png);
+	border-image: url(:/assets/resources/images/button.png);
 }
 </string>
     </property>
@@ -308,7 +310,7 @@ QPushButton::hover{
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="resources.qrc">:/assets/locked.png</pixmap>
+     <pixmap resource="resources.qrc">:/assets/resources/images/locked.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -358,7 +360,7 @@ border: 0;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="resources.qrc">:/assets/Button BG shadow.png</pixmap>
+     <pixmap resource="resources.qrc">:/assets/resources/images/button.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -381,7 +383,7 @@ border: 0;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="resources.qrc">:/assets/Button BG shadow.png</pixmap>
+     <pixmap resource="resources.qrc">:/assets/resources/images/button.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -404,7 +406,7 @@ border: 0;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="resources.qrc">:/assets/Button BG shadow.png</pixmap>
+     <pixmap resource="resources.qrc">:/assets/resources/images/button.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -485,7 +487,7 @@ background-color: transparent;
 </string>
     </property>
     <property name="text">
-     <string>MINING RIGS: 0</string>
+     <string>MINING RIGs: 0</string>
     </property>
    </widget>
    <widget class="QLabel" name="gpu">
@@ -505,7 +507,7 @@ background-color: transparent;
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="resources.qrc">:/assets/gpu.png</pixmap>
+     <pixmap resource="resources.qrc">:/assets/resources/images/gpu.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -527,7 +529,7 @@ background-color: transparent;
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="resources.qrc">:/assets/locked.png</pixmap>
+     <pixmap>:/assets/locked.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -739,7 +741,7 @@ background-color: transparent;
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="resources.qrc">:/assets/trade.png</pixmap>
+     <pixmap resource="resources.qrc">:/assets/resources/images/trade.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -762,7 +764,7 @@ background-color: transparent;
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="resources.qrc">:/assets/mining rig.png</pixmap>
+     <pixmap resource="resources.qrc">:/assets/resources/images/mining rig.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>

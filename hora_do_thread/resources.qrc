@@ -1,21 +1,15 @@
 <RCC>
     <qresource prefix="/assets">
-        <file>HP ARMOR AMMO HUD.png</file>
-        <file>BG.png</file>
-        <file>Vertical Menu.png</file>
-        <file>Main Background.png</file>
-        <file>Inventory Stats Empty.png</file>
-        <file>Inventory Cell.png</file>
-        <file>Money Icon.png</file>
-        <file>Button BG shadow.png</file>
-        <file>Button BG.png</file>
-        <file>gpu.png</file>
-        <file>BG Preset.png</file>
-        <file>Upgrade.png</file>
-        <file>locked.png</file>
-        <file>Money Panel EMPTY HUD.png</file>
-        <file>Bonus 03.png</file>
-        <file>trade.png</file>
-        <file>mining rig.png</file>
+        <file>resources/images/BG.png</file>
+        <file>resources/images/button.png</file>
+        <file>resources/images/button_shadow.png</file>
+        <file>resources/images/gpu.png</file>
+        <file>resources/images/locked.png</file>
+        <file>resources/images/main_background.png</file>
+        <file>resources/images/mining rig.png</file>
+        <file>resources/images/Money Icon.png</file>
+        <file>resources/images/money_background.png</file>
+        <file>resources/images/trade.png</file>
+        <file>resources/images/upgrade_background.png</file>
     </qresource>
 </RCC>

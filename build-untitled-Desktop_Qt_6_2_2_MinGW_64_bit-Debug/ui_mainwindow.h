@@ -64,14 +64,16 @@ public:
         MainWindow->setMinimumSize(QSize(900, 500));
         MainWindow->setMaximumSize(QSize(900, 500));
         MainWindow->setAutoFillBackground(false);
-        MainWindow->setStyleSheet(QString::fromUtf8("border-image: url(:/assets/Main Background.png)"));
+        MainWindow->setStyleSheet(QString::fromUtf8("border-image: url(:/assets/resources/images/main_background.png)"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         label = new QLabel(centralwidget);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(20, 10, 351, 201));
-        label->setStyleSheet(QString::fromUtf8("border: 0;"));
-        label->setPixmap(QPixmap(QString::fromUtf8(":/assets/BG Preset.png")));
+        label->setStyleSheet(QString::fromUtf8("border: 0;\n"
+"border-image: none;\n"
+""));
+        label->setPixmap(QPixmap(QString::fromUtf8(":/assets/resources/images/money_background.png")));
         label->setScaledContents(true);
         money_label = new QLabel(centralwidget);
         money_label->setObjectName(QString::fromUtf8("money_label"));
@@ -89,17 +91,17 @@ public:
         click_button->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "	color: #9a7a25;\n"
 "	font: 20pt \"Minecraft\";\n"
-"	border-image: url(:/assets/Button BG shadow.png);\n"
+"	border-image: url(:/assets/resources/images/button_shadow.png);\n"
 "}\n"
 "QPushButton::hover{\n"
 "	font: 18pt;\n"
-"	border-image: url(:/assets/Button BG.png);\n"
+"	border-image: url(:/assets/resources/images/button.png);\n"
 "}\n"
 ""));
         label_3 = new QLabel(centralwidget);
         label_3->setObjectName(QString::fromUtf8("label_3"));
         label_3->setGeometry(QRect(380, 10, 511, 411));
-        label_3->setPixmap(QPixmap(QString::fromUtf8(":/assets/Upgrade.png")));
+        label_3->setPixmap(QPixmap(QString::fromUtf8(":/assets/resources/images/upgrade_background.png")));
         label_3->setScaledContents(true);
         trader_price = new QLabel(centralwidget);
         trader_price->setObjectName(QString::fromUtf8("trader_price"));
@@ -118,11 +120,11 @@ public:
         trader_buy->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "	color: #9a7a25;\n"
 "	font: 14pt \"Minecraft\";\n"
-"	border-image: url(:/assets/Button BG shadow.png);\n"
+"	border-image: url(:/assets/resources/images/button_shadow.png);\n"
 "}\n"
 "QPushButton::hover{\n"
 "	font: 12pt;\n"
-"	border-image: url(:/assets/Button BG.png);\n"
+"	border-image: url(:/assets/resources/images/button.png);\n"
 "}\n"
 ""));
         gpu_price = new QLabel(centralwidget);
@@ -142,11 +144,11 @@ public:
         gpu_buy->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "	color: #9a7a25;\n"
 "	font: 14pt \"Minecraft\";\n"
-"	border-image: url(:/assets/Button BG shadow.png);\n"
+"	border-image: url(:/assets/resources/images/button_shadow.png);\n"
 "}\n"
 "QPushButton::hover{\n"
 "	font: 12pt;\n"
-"	border-image: url(:/assets/Button BG.png);\n"
+"	border-image: url(:/assets/resources/images/button.png);\n"
 "}\n"
 ""));
         rig_price = new QLabel(centralwidget);
@@ -166,18 +168,18 @@ public:
         rig_buy->setStyleSheet(QString::fromUtf8("QPushButton{\n"
 "	color: #9a7a25;\n"
 "	font: 14pt \"Minecraft\";\n"
-"	border-image: url(:/assets/Button BG shadow.png);\n"
+"	border-image: url(:/assets/resources/images/button_shadow.png);\n"
 "}\n"
 "QPushButton::hover{\n"
 "	font: 12pt;\n"
-"	border-image: url(:/assets/Button BG.png);\n"
+"	border-image: url(:/assets/resources/images/button.png);\n"
 "}\n"
 ""));
         locked_1 = new QLabel(centralwidget);
         locked_1->setObjectName(QString::fromUtf8("locked_1"));
         locked_1->setGeometry(QRect(444, 200, 51, 41));
         locked_1->setStyleSheet(QString::fromUtf8("border-image: none;"));
-        locked_1->setPixmap(QPixmap(QString::fromUtf8(":/assets/locked.png")));
+        locked_1->setPixmap(QPixmap(QString::fromUtf8(":/assets/resources/images/locked.png")));
         locked_1->setScaledContents(true);
         locked_text_1 = new QLabel(centralwidget);
         locked_text_1->setObjectName(QString::fromUtf8("locked_text_1"));
@@ -194,21 +196,21 @@ public:
         label_9->setGeometry(QRect(20, 270, 351, 51));
         label_9->setStyleSheet(QString::fromUtf8("border-image: none;\n"
 "border: 0;"));
-        label_9->setPixmap(QPixmap(QString::fromUtf8(":/assets/Button BG shadow.png")));
+        label_9->setPixmap(QPixmap(QString::fromUtf8(":/assets/resources/images/button.png")));
         label_9->setScaledContents(true);
         label_10 = new QLabel(centralwidget);
         label_10->setObjectName(QString::fromUtf8("label_10"));
         label_10->setGeometry(QRect(20, 320, 351, 51));
         label_10->setStyleSheet(QString::fromUtf8("border-image: none;\n"
 "border: 0;"));
-        label_10->setPixmap(QPixmap(QString::fromUtf8(":/assets/Button BG shadow.png")));
+        label_10->setPixmap(QPixmap(QString::fromUtf8(":/assets/resources/images/button.png")));
         label_10->setScaledContents(true);
         label_12 = new QLabel(centralwidget);
         label_12->setObjectName(QString::fromUtf8("label_12"));
         label_12->setGeometry(QRect(20, 220, 351, 51));
         label_12->setStyleSheet(QString::fromUtf8("border-image: none;\n"
 "border: 0;"));
-        label_12->setPixmap(QPixmap(QString::fromUtf8(":/assets/Button BG shadow.png")));
+        label_12->setPixmap(QPixmap(QString::fromUtf8(":/assets/resources/images/button.png")));
         label_12->setScaledContents(true);
         trader_quant = new QLabel(centralwidget);
         trader_quant->setObjectName(QString::fromUtf8("trader_quant"));
@@ -242,7 +244,7 @@ public:
         gpu->setGeometry(QRect(600, 90, 81, 51));
         gpu->setStyleSheet(QString::fromUtf8("border-image: none;\n"
 ""));
-        gpu->setPixmap(QPixmap(QString::fromUtf8(":/assets/gpu.png")));
+        gpu->setPixmap(QPixmap(QString::fromUtf8(":/assets/resources/images/gpu.png")));
         gpu->setScaledContents(true);
         locked_2 = new QLabel(centralwidget);
         locked_2->setObjectName(QString::fromUtf8("locked_2"));
@@ -325,14 +327,14 @@ public:
         trader->setGeometry(QRect(450, 90, 51, 41));
         trader->setStyleSheet(QString::fromUtf8("border-image: none;\n"
 ""));
-        trader->setPixmap(QPixmap(QString::fromUtf8(":/assets/trade.png")));
+        trader->setPixmap(QPixmap(QString::fromUtf8(":/assets/resources/images/trade.png")));
         trader->setScaledContents(true);
         mining_rig = new QLabel(centralwidget);
         mining_rig->setObjectName(QString::fromUtf8("mining_rig"));
         mining_rig->setGeometry(QRect(760, 90, 81, 51));
         mining_rig->setStyleSheet(QString::fromUtf8("border-image: none;\n"
 ""));
-        mining_rig->setPixmap(QPixmap(QString::fromUtf8(":/assets/mining rig.png")));
+        mining_rig->setPixmap(QPixmap(QString::fromUtf8(":/assets/resources/images/mining rig.png")));
         mining_rig->setScaledContents(true);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
@@ -368,7 +370,7 @@ public:
         label_12->setText(QString());
         trader_quant->setText(QCoreApplication::translate("MainWindow", "TRADERS: 0", nullptr));
         gpu_quant->setText(QCoreApplication::translate("MainWindow", "GPUs: 0", nullptr));
-        rig_quant->setText(QCoreApplication::translate("MainWindow", "MINING RIGS: 0", nullptr));
+        rig_quant->setText(QCoreApplication::translate("MainWindow", "MINING RIGs: 0", nullptr));
         gpu->setText(QString());
         locked_2->setText(QString());
         locked_text_2->setText(QCoreApplication::translate("MainWindow", "LOCKED", nullptr));
