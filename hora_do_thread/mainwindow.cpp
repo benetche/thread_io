@@ -45,7 +45,9 @@ MainWindow::~MainWindow(){
 void MainWindow::on_click_button_clicked(){
     this->purse->addMoney(1);
 }
+void MainWindow::on_pushButton_3_clicked(){
 
+}
 
 void MainWindow::on_trader_buy_clicked(){
     this->trader->handleBuy();

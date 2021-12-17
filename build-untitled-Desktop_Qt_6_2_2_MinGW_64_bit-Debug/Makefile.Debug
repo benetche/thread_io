@@ -609,7 +609,8 @@ debug/main.o: ../hora_do_thread/main.cpp ../hora_do_thread/mainwindow.h \
 		C:/Qt/6.2.2/mingw_64/include/QtGui/qguiapplication.h \
 		C:/Qt/6.2.2/mingw_64/include/QtGui/qinputmethod.h \
 		C:/Qt/6.2.2/mingw_64/include/QtCore/qlocale.h \
-		C:/Qt/6.2.2/mingw_64/include/QtGui/qguiapplication_platform.h
+		C:/Qt/6.2.2/mingw_64/include/QtGui/qguiapplication_platform.h \
+		C:/Qt/6.2.2/mingw_64/include/QtGui/QIcon
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\main.o ..\hora_do_thread\main.cpp
 
 debug/mainwindow.o: ../hora_do_thread/mainwindow.cpp ../hora_do_thread/mainwindow.h \
