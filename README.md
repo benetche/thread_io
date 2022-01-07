@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Thread.io
 
 ## Um jogo para estudo de threads🧵 e semáforos 🚦
@@ -47,4 +46,3 @@ Caso esteja usando alguma distribuição Linux baseada em deb, poderá baixar co
 sudo apt-get install qt5-default
 ```
 Após instalar o <a href="https://www.qt.io/download">Qt Creator</a>, basta abrir o projeto e executar o comando "Build", o qual irá compilar e rodar o programa em sua máquina.
->>>>>>> 96bf0c2ef7b6b987de5a24d9a2e2ed0b712e4dbb
