@@ -19,4 +19,7 @@ Caso esteja usando alguma distribuição Linux baseada em deb, poderá baixar co
 ```linux
 sudo apt-get install qt5-default
 ```
-Após instalar o <a href="https://www.qt.io/download">Qt Creator</a>, basta abrir o projeto e executar o comando "Build", o qual irá compilar e rodar o programa em sua máquina.
+Após instalar o <a href="https://www.qt.io/download">Qt Creator</a>, basta abrir a pasta do projeto e buscar pelo arquivo <strong>untitled.pro</strong>, este é o arquivo para abrir o projeto no Qt Creator.<br/>
+A aba do Qt Creator será algo parecido com isso: <br/> <br/>  ![image](https://user-images.githubusercontent.com/61762667/148589611-e19b606b-0f15-4a1f-814b-4d7b6c015ff1.png)
+Aqui tem-se todos os componentes para verificar e modificar o código fonte do jogo, além de poder compilar o jogo novamente em sua própria máquina.
+
